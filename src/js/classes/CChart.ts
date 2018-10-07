@@ -2,6 +2,12 @@ import * as Chart from 'chart.js';
 import CBollingerStocks from './CBollingerStocks';
 import IChart from '../interfaces/IChart';
 
+/**
+ * @class CChart
+ * @classdesc Class representing chart
+ * @extends CStocks
+ * @implements IChart
+ */
 export default class CChart implements IChart {
 	private _canvas: HTMLCanvasElement;
 	private _ctx: CanvasRenderingContext2D;
