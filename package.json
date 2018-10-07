@@ -1,0 +1,30 @@
+{
+  "name": "bollinger-project",
+  "version": "1.0.0",
+  "description": "Implementation of bollinger method with typescript and chart.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "we are live!",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "webpack-dev-server --open",
+    "prod": "webpack --production"
+
+  },
+  "author": "Giedrius Ladyga",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.7.2"
+  },
+  "devDependencies": {
+    "common-js": "^0.3.8",
+    "html-webpack-plugin": "^3.2.0",
+    "lite-server": "^2.4.0",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
